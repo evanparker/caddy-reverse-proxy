@@ -34,7 +34,7 @@
 		format json # set access log format to json mode
 	}
 
-	@bot header_regexp User-Agent (?i)(bot|python)
+	@bot header_regexp User-Agent (?i)(bot|python|Bluesky)
 
 	handle @bot {
 		reverse_proxy {
